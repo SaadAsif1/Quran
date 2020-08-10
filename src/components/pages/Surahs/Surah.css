@@ -1,0 +1,52 @@
+/* Quran Words */
+.quran-ayat-text {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.quran-ayat-text:hover {
+  cursor: pointer;
+  color: #03a87c;
+}
+
+.ayat-end-num {
+  border: solid 2px black;
+  font-weight: 900;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.ayat-end-num:hover {
+  cursor: pointer;
+  color: #03a87c;
+  border: solid 2px #03a87c;
+}
+
+.tooltip-ayat {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+/* Media Controls */
+.media-controls {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 5rem;
+}
+
+/* Loading */
+.loading-ayats {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  padding-top: 45vh;
+  text-align: center;
+}

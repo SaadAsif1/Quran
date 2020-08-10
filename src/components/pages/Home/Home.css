@@ -1,0 +1,278 @@
+.home-container {
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+.home-sub-title {
+  color: #c4c4c4;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+/* Home Search Seaction */
+.home-search-container {
+  background-color: #03a87c;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23a8692a' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2357a80c'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  color: white;
+  padding: 3rem 0;
+  border-top: solid 1px lightgray;
+}
+
+.home-search-img {
+  display: block;
+  width: 17rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.home-search-title {
+  color: #1cdfab;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  margin-top: -0.7rem;
+}
+
+/* Home Quick Links */
+.home-links-container {
+  border-bottom: solid 2px rgb(241, 241, 241);
+  padding-bottom: 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+.home-links-span {
+  font-weight: 700;
+  margin-right: 1rem;
+  color: #c4c4c4;
+}
+
+.home-links-link {
+  margin-right: 1rem;
+  font-weight: 700;
+  border-right: solid 2px #939598;
+  padding-right: 1rem;
+  color: #03a87c;
+  transition: 0.2s;
+}
+
+.home-links-link:hover {
+  cursor: pointer;
+  color: #0dd6a0;
+}
+
+/* Home Surah Section */
+.home-surah-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". . .";
+}
+
+.home-surah {
+  display: flex;
+  font-size: 0.9rem;
+  border: solid 2px rgb(241, 241, 241);
+  margin: 0.5rem 0.2rem;
+  transition: 0.2s;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  color: #03a87c;
+}
+
+.home-surah:hover {
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+.home-surah-number {
+  color: #d1d0d0;
+  font-weight: 700;
+}
+
+.home-surah-dec {
+  margin-left: 1.8rem;
+}
+
+.home-surah-name-en {
+  font-weight: 700;
+}
+
+.home-surah-name-en-trans {
+  margin-top: 0.1rem;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.home-surah-name {
+  margin-left: auto;
+  font-size: 1.6rem;
+}
+
+/* Home Navbar */
+.home-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.home-navbar-title {
+  width: 2rem;
+  margin-left: 1rem;
+}
+
+.home-navbar-link {
+  margin: 0 1.3rem;
+  color: #666;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: 0.2s;
+  letter-spacing: 0.6px;
+}
+
+.home-navbar-link:hover {
+  color: #333;
+}
+
+/* Home Footer */
+.home-footer {
+  background: #333;
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
+
+.home-footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". . .";
+}
+
+.home-footer-title {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.home-footer-links {
+  display: block;
+  margin: 0.6rem 0;
+  color: rgb(145, 145, 145);
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.home-footer-links:hover {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.home-footer-dec {
+  color: rgb(145, 145, 145);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.home-footer-dec-br {
+  margin-bottom: 0.8rem;
+}
+
+/* Loading */
+.home-surah-loading {
+  padding: 1rem 0;
+  margin: 1rem;
+  background-color: #f4f4f4;
+}
+
+/* Search form */
+.home-search-form {
+  display: flex;
+  background-color: white;
+  padding: 3px;
+}
+
+.home-search-input {
+  flex-grow: 2;
+  border: none;
+  padding: 1rem;
+  color: #03a87c;
+  font-weight: 700;
+  text-align: left;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.home-search-input::placeholder {
+  color: #03a87c;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.home-search-input:focus {
+  outline: none;
+}
+
+.home-search-btn {
+  background: #03a87c;
+  border: none;
+  color: white;
+  padding: 0.1rem 1rem;
+  font-size: 1.5rem;
+}
+
+.auto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.autoContainer {
+  position: absolute;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: lightgray;
+  background-color: #ffffff;
+  color: black;
+  right: 0px;
+  top: 60px;
+  width: 100%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: flex;
+  font-weight: 600;
+  color: #03a87c;
+  text-align: left;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+
+.option:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+b {
+  color: #03946d;
+}
