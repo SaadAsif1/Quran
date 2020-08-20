@@ -9,7 +9,7 @@ import SingalAyat from "./components/pages/Surahs/SingalAyat";
 const Routes = () => {
   // const [values, setValues] = useState({
   //   data: "",
-  // });
+  // });;
 
   // const { data } = values;
 
